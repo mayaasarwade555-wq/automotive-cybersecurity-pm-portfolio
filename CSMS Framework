@@ -1,0 +1,235 @@
+# CSMS Project Lifecycle Framework
+### Aligned with UNECE R155 & ISO/SAE 21434
+
+> Created by Maya Sarwade | Cybersecurity PM | FEV India  
+> Based on real-world CSMS implementation experience across 10+ vehicle programs
+
+---
+
+## What is a CSMS?
+
+A **Cybersecurity Management System (CSMS)** is an organisation-level framework that an automotive OEM or supplier must implement and maintain to demonstrate that cybersecurity is systematically managed across the entire vehicle lifecycle — from concept through decommissioning.
+
+UNECE Regulation 155 (R155) mandates that all passenger vehicles, light commercial vehicles, trucks, and buses sold in UNECE member countries must be manufactured by organisations holding a valid **CSMS Certificate of Compliance**.
+
+---
+
+## CSMS Project Phases
+
+```
+Phase 1: Gap Analysis
+    ↓
+Phase 2: CSMS Design & Policy Development
+    ↓
+Phase 3: Process Implementation
+    ↓
+Phase 4: Supplier Management Integration
+    ↓
+Phase 5: Internal Audit & Review
+    ↓
+Phase 6: Technical Service Assessment
+    ↓
+Phase 7: Type Approval Authority Approval
+    ↓
+Phase 8: Ongoing Monitoring & Continuous Improvement
+```
+
+---
+
+## Phase 1 — Gap Analysis
+
+**Objective:** Assess current organisational cybersecurity posture against UNECE R155 and ISO/SAE 21434 requirements.
+
+**Key Activities:**
+- Review existing cybersecurity policies, processes, and documentation
+- Map current practices against UNECE R155 Annex 5 requirements
+- Identify gaps in people, process, and technology
+- Produce a Gap Analysis Report with priority rankings
+
+**Typical Duration:** 4–8 weeks
+
+**Key Deliverables:**
+- [ ] Gap Analysis Report
+- [ ] Cybersecurity Maturity Assessment Score
+- [ ] Remediation Roadmap with timeline and ownership
+
+**Stakeholders:** CISO / Security Lead, Quality Manager, Engineering Leads, Procurement
+
+---
+
+## Phase 2 — CSMS Design & Policy Development
+
+**Objective:** Design the CSMS framework and develop all required policies and procedures.
+
+**Key Activities:**
+- Define organisational cybersecurity roles and responsibilities
+- Develop Cybersecurity Policy (top-level)
+- Develop supporting procedures: incident response, vulnerability management, supplier management, risk management
+- Define cybersecurity objectives and KPIs
+
+**Typical Duration:** 6–10 weeks
+
+**Key Deliverables:**
+- [ ] Cybersecurity Policy (signed by top management)
+- [ ] Cybersecurity Roles & Responsibilities Matrix (RACI)
+- [ ] Incident Response Procedure
+- [ ] Vulnerability Management Procedure
+- [ ] Cybersecurity Risk Management Procedure
+- [ ] Supplier Cybersecurity Requirements Document
+
+---
+
+## Phase 3 — Process Implementation
+
+**Objective:** Embed CSMS processes into day-to-day operations and vehicle development workflows.
+
+**Key Activities:**
+- Integrate cybersecurity into product development processes (concept, development, production)
+- Implement cybersecurity case management for each vehicle type
+- Establish TARA (Threat Analysis & Risk Assessment) process
+- Implement cybersecurity testing and validation gates
+- Train relevant personnel on new processes
+
+**Typical Duration:** 8–16 weeks
+
+**Key Deliverables:**
+- [ ] Cybersecurity Plan (per vehicle program)
+- [ ] TARA Reports (per vehicle type/component)
+- [ ] Cybersecurity Cases (per vehicle program)
+- [ ] Training Completion Records
+- [ ] Process Integration Evidence
+
+---
+
+## Phase 4 — Supplier Management Integration
+
+**Objective:** Extend CSMS requirements to Tier 1 and Tier 2 suppliers.
+
+**Key Activities:**
+- Develop Supplier Cybersecurity Requirements specification
+- Distribute requirements to all relevant suppliers
+- Assess supplier cybersecurity capabilities
+- Establish supplier monitoring and reporting cadence
+- Include cybersecurity clauses in supplier contracts
+
+**Typical Duration:** 6–12 weeks (ongoing)
+
+**Key Deliverables:**
+- [ ] Supplier Cybersecurity Requirements Document
+- [ ] Supplier Cybersecurity Assessment Questionnaire
+- [ ] Supplier Capability Assessment Results
+- [ ] Supplier Cybersecurity Agreement / Contract Addendum
+- [ ] Supplier Monitoring Plan
+
+---
+
+## Phase 5 — Internal Audit & Review
+
+**Objective:** Verify CSMS implementation effectiveness before external assessment.
+
+**Key Activities:**
+- Conduct internal audit against UNECE R155 Annex 5 checklist
+- Review all CSMS documentation for completeness and accuracy
+- Conduct management review of cybersecurity objectives and KPIs
+- Address all non-conformances identified
+- Prepare evidence packages for Technical Service assessment
+
+**Typical Duration:** 4–6 weeks
+
+**Key Deliverables:**
+- [ ] Internal Audit Report
+- [ ] Non-Conformance Log with closure evidence
+- [ ] Management Review Minutes
+- [ ] CSMS Evidence Package
+
+---
+
+## Phase 6 — Technical Service Assessment
+
+**Objective:** Independent assessment by an approved Technical Service (e.g., TÜV SÜD, TÜV Rheinland, DEKRA).
+
+**Key Activities:**
+- Submit CSMS documentation package to Technical Service
+- Respond to Technical Service queries and document requests
+- Facilitate on-site assessment (interviews, process walkthroughs)
+- Address any findings raised during assessment
+
+**Typical Duration:** 4–8 weeks
+
+**Key Deliverables:**
+- [ ] Technical Service Assessment Report
+- [ ] Finding Responses and Closure Evidence
+- [ ] CSMS Assessment Certificate (upon successful completion)
+
+---
+
+## Phase 7 — Type Approval Authority Approval
+
+**Objective:** Obtain CSMS Type Approval from the national authority (e.g., DGTD in India, KBA in Germany, VCA in UK).
+
+**Key Activities:**
+- Submit Technical Service Assessment Certificate to Type Approval Authority
+- Provide additional documentation as required
+- Receive CSMS Certificate of Compliance
+
+**Typical Duration:** 2–6 weeks (varies by country)
+
+**Key Deliverables:**
+- [ ] CSMS Certificate of Compliance
+- [ ] Vehicle Type Approval Certificate (per vehicle type)
+
+---
+
+## Phase 8 — Ongoing Monitoring & Continuous Improvement
+
+**Objective:** Maintain CSMS effectiveness across the product lifecycle and improve continuously.
+
+**Key Activities:**
+- Monitor cybersecurity threats and vulnerabilities relevant to fielded vehicles
+- Manage cybersecurity incidents and report to authorities as required
+- Conduct periodic internal audits (typically annual)
+- Update CSMS documentation in response to regulatory changes
+- Renew CSMS certificate (typically every 3 years)
+
+**Key Deliverables (ongoing):**
+- [ ] Incident Reports (as required)
+- [ ] Annual Internal Audit Reports
+- [ ] CSMS Review Records
+- [ ] Regulatory Update Log
+
+---
+
+## CSMS Project RACI Matrix (Summary)
+
+| Activity | CISO/Security Lead | PM | Engineering | Procurement | Top Management |
+|----------|-------------------|----|--------------|----|----------------|
+| Gap Analysis | A | R | C | I | I |
+| Policy Development | A | R | C | I | A |
+| TARA | R | A | R | I | I |
+| Supplier Mgmt | C | A | I | R | I |
+| Internal Audit | R | A | C | I | I |
+| Management Review | C | R | I | I | A |
+| Technical Service | C | R | R | I | I |
+
+*R = Responsible, A = Accountable, C = Consulted, I = Informed*
+
+---
+
+## Key Regulatory References
+
+| Standard/Regulation | Scope |
+|--------------------|-------|
+| UNECE R155 | CSMS requirements for vehicle manufacturers |
+| UNECE R156 | SUMS requirements for software updates |
+| ISO/SAE 21434 | Cybersecurity engineering for road vehicles |
+| AIS 189 (India) | India-specific CSMS (mirrors UNECE R155) |
+| AIS 190 (India) | India-specific SUMS (mirrors UNECE R156) |
+| ISO 24089 | Software update engineering for road vehicles |
+
+---
+
+## About This Framework
+
+This framework is based on practical CSMS implementation experience across multiple automotive OEM programs at FEV India. It is shared for educational purposes to help cybersecurity professionals, PMs, and automotive engineers understand the CSMS compliance journey.
+
+**Author:** Maya Sarwade | [LinkedIn](https://linkedin.com/in/mayasarwade) | sarawademaya@gmail.com
